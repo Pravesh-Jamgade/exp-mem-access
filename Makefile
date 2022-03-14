@@ -15,3 +15,8 @@ run_$(TARGET):
 clean:
 	rm -rf $(SUITE) test/out/* *.db $(TARGET) *.csv sim.* *.log *.out *.png *.o topo.* power.* $(CLEAN_EXTRA)
 CLEAN_EXTRA=viz
+
+# move:
+# 	rm -rf $(TARGET)/
+# 	mkdir $(TARGET)/
+# 	mv *.csv *.out $(TARGET)/ 

@@ -11,7 +11,7 @@ typedef long long ll;
 
 int main(){
 
-    string filePath="/home/pravesh/sniper/test/rarray/output.md";
+    string filePath="/mnt/B/sniper/test/rarray/output.md";
 
     fstream fout;
     fout.open(filePath,ios::out);

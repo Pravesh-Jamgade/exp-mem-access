@@ -31,7 +31,7 @@ void callRunner()
 {
     list<int>::iterator it=allElements.begin();
     SimRoiStart();
-    for(;it!=list.end();it++)
+    for(;it!=allElements.end();it++)
     {
         *it=*it % 1000;
     }
