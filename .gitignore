@@ -1,0 +1,9 @@
+output.md
+*.csv
+*.cfg
+*.out
+*.log
+*.out
+*.o
+*.txt
+sim.stats.sqlite3
